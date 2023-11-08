@@ -5,8 +5,8 @@ using UnityEngine.Events;
 
 public class Home : MonoBehaviour
 {
-    int maxVolume = 1;
-    int minVolume = 0;
+    private int maxVolume = 1;
+    private int minVolume = 0;
     public UnityAction<float> Touched;
 
     private void OnTriggerEnter2D(Collider2D collision)
